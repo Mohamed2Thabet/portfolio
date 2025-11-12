@@ -5,17 +5,29 @@ import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 import { useState } from "react";
 
+// تعريف نوع المشروع
+type Project = {
+  id: number;
+  title: string;
+  des: string;
+  img: string;
+  link: string;
+  categories: string[];
+  iconLists: string[];
+};
+
 const RecentProjects = () => {
-  const [active, setActive] = useState("All");
-  const [filtered, setFiltered] = useState(projects);
+  const [active, setActive] = useState<string>("All");
+  const [filtered, setFiltered] = useState<Project[]>(projects);
 
   // جميع الكاتيجوريز بدون تكرار
-  const allCategories = [
+  const allCategories: string[] = [
     "All",
-    ...new Set(projects.flatMap((item) => item.categories)),
+    ...Array.from(new Set(projects.flatMap((item) => item.categories))),
   ];
 
-  const handleFilter = (category) => {
+  // دالة الفلترة مع تحديد نوع category
+  const handleFilter = (category: string) => {
     setActive(category);
     if (category === "All") {
       setFiltered(projects);
