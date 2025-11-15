@@ -13,7 +13,6 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Experience from "@/components/Experience";
 import { BsGear } from "react-icons/bs";
 import { FaGraduationCap } from "react-icons/fa6";
-import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -64,7 +63,6 @@ export default function Home() {
     <RecentProjects />
     <Testimonials />
     <Contact />
-    {/* <Approach/> */}
     <Footer/>
   </div>
 </main>
