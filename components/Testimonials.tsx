@@ -11,7 +11,7 @@ const Testimonials = () => {
         <span className="text-purple-500">satisfied clients</span>
       </h1>
       <div className="flex flex-col items-center mt-10">
-        <div className="flex flex-col antialiased overflow-hidden items-center h-[50vh] md:h-[30-rem] rounded-md relative">
+        <div className="flex flex-col antialiased overflow-hidden items-center rounded-md relative">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"

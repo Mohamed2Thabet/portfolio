@@ -71,7 +71,7 @@ const About = () => {
             </motion.p>
 
             {/* Skills Section */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
@@ -95,7 +95,7 @@ const About = () => {
                   {skill}
                 </motion.span>
               ))}
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>

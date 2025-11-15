@@ -72,110 +72,105 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    categories: ["React", "Three.js", "TypeScript"],
-    link: "/ui.earth.com",
+    title: "Mahd E Learning Platform",
+    des: "A full-featured online learning platform connecting students, instructors, and a global community through interactive courses, gamification, and collaborative tools.",
+    img: "/Mahd-E-Learning-Platform.svg",
+    iconLists: [
+      "/javascript.svg",
+      "/react.svg",
+      "/bootstrap.svg",
+      "/redux.svg",
+    ],
+    categories: ["React", "Bootstrap", "Javascript", "Redux"],
+    link: "https://www.youtube.com/watch?v=x1RdCBw4owU",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    categories: ["Next.js", "Tailwind", "TypeScript"],
-    link: "/ui.yoom.com",
+    title: "Mahd-E-Learning-Platform-Admin-Dashboard",
+    des: "A modern, customizable admin dashboard for managing users and roles in the Mahd E-Learning Platform. Built with React, Redux Toolkit, Vite, and styled for a beautiful, responsive experience.",
+    img: "/Mahd-E-Learning-Platform-Admin-Dashboard.png",
+    iconLists: [
+      "/javascript.svg",
+      "/react.svg",
+      "/tail.svg",
+      "/redux.svg",
+    ],
+    categories: ["React", "Tailwind", "Javascript", "Redux"],
+    link: "https://www.youtube.com/watch?v=_2gaiFzpmuY",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    categories: ["React", "Tailwind", "AI", "TypeScript"],
-    link: "/ui.aiimg.com",
+    title: "Prayer Times App",
+    des: "A modern, responsive web application for checking prayer times and weather information based on location.",
+    img: "/Prayer.png",
+    iconLists: ["/re.svg", "/materialui.svg", "/fm.svg", "/javascript.svg"],
+    categories: ["React", "Material-UI", "Javascript"],
+    link: "https://prayer-times-and-weather.vercel.app",
   },
   {
     id: 4,
-    title: "Animated Apple iPhone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    categories: ["Next.js", "GSAP", "Three.js"],
-    link: "/ui.apple.com",
+    title: "bariqclean",
+    des:"A professional cleaning service website showcasing services, bookings, and client information, designed with modern animations and interactive 3D effects.",
+    img: "/bariqclean.png",
+    iconLists: ["/wordpress.svg",],
+    categories: ["Wordpress"],
+    link: "https://bariqclean.site/",
   },
   {
     id: 5,
-    title: "Animated Apple iPhone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    categories: ["Next.js", "GSAP", "Three.js"],
-    link: "/ui.apple.com",
+    title: "Personal Template",
+    des: "A fully responsive personal website template built with HTML, CSS, and JavaScript, featuring interactive animations, AOS scroll effects, and GSAP-powered counters.",
+    img: "/TemplateThreeHtmlCss.png",
+    iconLists: ["/css.svg","/html.svg"],
+    categories: ["Css"],
+    link: "https://mohamed2thabet.github.io/TemplateThreeHtmlCss/",
   },
+  ,
   {
     id: 6,
-    title: "Animated Apple iPhone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    categories: ["Next.js", "GSAP", "Three.js"],
-    link: "/ui.apple.com",
+    title: "Basic Portfolio",
+    des: "A modern, fast, and scalable React 18 project built with Vite. This project uses Font Awesome for icons and integrates ESLint for code quality. It is optimized for development speed and maintainability, following best practices for React development.",
+    img: "/portfolio.png",
+    iconLists: ["/re.svg", "/css.svg", "/javascript.svg"],
+    categories: ["React", "Css", "Javascript"],
+    link: "https://react-portfolio-a8962.web.app/",
   },
   {
     id: 7,
-    title: "Animated Apple iPhone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    categories: ["Next.js", "GSAP", "Three.js"],
-    link: "/ui.apple.com",
+    title: "Kasper Template – Responsive Multipurpose Website",
+    des: "A fully responsive multi-purpose template built with HTML, CSS, and modern UI components. Kasper features elegant layouts, dynamic sections, interactive sliders, portfolio grid, pricing plans, testimonials, and a complete contact form — designed to deliver a professional and smooth user experience.",
+    img: "/Leon – Creative Agency Template.png",
+   iconLists: ["/css.svg","/html.svg"],
+    categories: ["Css"],
+    link: "https://mohamed2thabet.github.io/TemplateTwoHtmlCss/",
   },
   {
     id: 8,
-    title: "Animated Apple iPhone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    categories: ["Next.js", "GSAP", "Three.js"],
-    link: "/ui.apple.com",
+    title: "Bondi – Modern Bootstrap Landing Page",
+    des: "A fully responsive multi-section landing page built with HTML, CSS, and Bootstrap. Features a clean modern design, interactive navigation, services overview, portfolio grid, team section, blog cards, and custom components for a complete professional website template.",
+    img: "/Bondi.png",
+   iconLists: ["/css.svg","/html.svg","/bootstrap.svg"],
+    categories: ["Css","Bootstrap"],
+    link: "https://mohamed2thabet.github.io/Bootstrap/",
   },
   {
     id: 9,
-    title: "Animated Apple iPhone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    categories: ["Next.js", "GSAP", "Three.js"],
-    link: "/ui.apple.com",
+    title: "Leon – AgencyTemplate",
+    des: "A clean and modern creative agency template offering services, portfolio showcases, and a fully responsive design. Leon delivers a minimal aesthetic with smooth user experience and well-structured sections including Services, Portfolio, About, and Contact.",
+    img: "/AgencyTemplate.png",
+   iconLists: ["/css.svg","/html.svg"],
+    categories: ["Css"],
+    link: "https://mohamed2thabet.github.io/TemplateOneHtmlCss/",
   },
-  {
-    id: 10,
-    title: "Animated Apple iPhone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    categories: ["Next.js", "GSAP", "Three.js"],
-    link: "/ui.apple.com",
-  },
-  {
-    id: 11,
-    title: "Animated Apple iPhone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    categories: ["Next.js", "GSAP", "Three.js"],
-    link: "/ui.apple.com",
-  },
+
 ];
 export const educations = [
   {
     id: 1,
     title: "Bachelor’s Degree in Information Technology (Software)",
     duration: "2020 - 2025",
-    institution: "Faculty of Industrial Technology & Energy, Delta University for Technology, Egypt",
+    institution:
+      "Faculty of Industrial Technology & Energy, Delta University for Technology, Egypt",
   },
   {
     id: 2,
@@ -187,7 +182,8 @@ export const educations = [
     id: 3,
     title: "React Web Developer – Certificate of Completion",
     duration: "April - October 2024",
-    institution: "Digital Egypt Pioneers Initiative (Ministry of Communications and Information Technology, Egypt)",
+    institution:
+      "Digital Egypt Pioneers Initiative (Ministry of Communications and Information Technology, Egypt)",
   },
   {
     id: 4,
@@ -196,7 +192,6 @@ export const educations = [
     institution: "Makr Ebda' Digital Passage Center, Egypt",
   },
 ];
-
 
 export const testimonials = [
   {
@@ -271,8 +266,6 @@ export const testimonials = [
   },
 ];
 
-
-
 export const companies = [
   {
     id: 1,
@@ -337,18 +330,20 @@ export const workExperience = [
   },
 ];
 
-
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Mohamed2Thabet",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/wha.svg",
+    link: "https://wa.me/201092594592",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/mohamed-thabet7/",
   },
 ];

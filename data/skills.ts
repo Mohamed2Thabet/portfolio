@@ -10,13 +10,16 @@ export const skillsData = [
   'MySQL',
   'PostgreSQL',
   'Git',
-  'AWS',
+  // 'AWS',
   'Bootstrap',
-  'Docker',
-  'Go',
-  'Figma',
+  'Prisma',
+  'Wordpress',
+  'Redux',
+  // 'Docker',
+  // 'Go',
+  // 'Figma',
   'Firebase',
   'MaterialUI',
-  'Nginx',
-  'Strapi'
+  // 'Nginx',
+  // 'Strapi'
 ]

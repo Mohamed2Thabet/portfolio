@@ -82,6 +82,7 @@ import kubernetes from '../app/skills/kubernetes.svg'
 import linux from '../app/skills/linux.svg'
 import sqlalchemy from '../app/skills/sqlalchemy.svg'
 import fastapi from '../app/skills/fastapi.svg'
+import redux from '../app/skills/redux.svg'
 
 
 
@@ -90,6 +91,8 @@ export const skillsImage = (skill:string) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
+    case 'redux':
+      return redux;
     case 'html':
       return html;
     case 'photoshop':
