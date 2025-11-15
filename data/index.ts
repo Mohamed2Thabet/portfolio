@@ -112,7 +112,7 @@ export const projects = [
     title: "bariqclean",
     des:"A professional cleaning service website showcasing services, bookings, and client information, designed with modern animations and interactive 3D effects.",
     img: "/bariqclean.png",
-    iconLists: ["/wordpress.svg",],
+    iconLists: ["/wordpress.svg"],
     categories: ["Wordpress"],
     link: "https://bariqclean.site/",
   },
@@ -125,7 +125,6 @@ export const projects = [
     categories: ["Css"],
     link: "https://mohamed2thabet.github.io/TemplateThreeHtmlCss/",
   },
-  ,
   {
     id: 6,
     title: "Basic Portfolio",
@@ -140,7 +139,7 @@ export const projects = [
     title: "Kasper Template – Responsive Multipurpose Website",
     des: "A fully responsive multi-purpose template built with HTML, CSS, and modern UI components. Kasper features elegant layouts, dynamic sections, interactive sliders, portfolio grid, pricing plans, testimonials, and a complete contact form — designed to deliver a professional and smooth user experience.",
     img: "/Leon – Creative Agency Template.png",
-   iconLists: ["/css.svg","/html.svg"],
+    iconLists: ["/css.svg","/html.svg"],
     categories: ["Css"],
     link: "https://mohamed2thabet.github.io/TemplateTwoHtmlCss/",
   },
@@ -149,7 +148,7 @@ export const projects = [
     title: "Bondi – Modern Bootstrap Landing Page",
     des: "A fully responsive multi-section landing page built with HTML, CSS, and Bootstrap. Features a clean modern design, interactive navigation, services overview, portfolio grid, team section, blog cards, and custom components for a complete professional website template.",
     img: "/Bondi.png",
-   iconLists: ["/css.svg","/html.svg","/bootstrap.svg"],
+    iconLists: ["/css.svg","/html.svg","/bootstrap.svg"],
     categories: ["Css","Bootstrap"],
     link: "https://mohamed2thabet.github.io/Bootstrap/",
   },
@@ -158,12 +157,12 @@ export const projects = [
     title: "Leon – AgencyTemplate",
     des: "A clean and modern creative agency template offering services, portfolio showcases, and a fully responsive design. Leon delivers a minimal aesthetic with smooth user experience and well-structured sections including Services, Portfolio, About, and Contact.",
     img: "/AgencyTemplate.png",
-   iconLists: ["/css.svg","/html.svg"],
+    iconLists: ["/css.svg","/html.svg"],
     categories: ["Css"],
     link: "https://mohamed2thabet.github.io/TemplateOneHtmlCss/",
   },
-
 ];
+
 export const educations = [
   {
     id: 1,
