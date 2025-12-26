@@ -61,7 +61,7 @@ export default function Home() {
     <Education />
     <Experience />
     <RecentProjects />
-    <Testimonials />
+    {/* <Testimonials /> */}
     <Contact />
     <Footer/>
   </div>
