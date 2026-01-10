@@ -8,18 +8,12 @@ import MagicButton from "./ui/MagicButton";
 import { FaCloudArrowDown, FaLocationArrow } from "react-icons/fa6";
 
 export function Hero() {
-  const roles = [
-    "React.js",
-    "Next.js",
-    "WordPress (Bricks Builder)",
-  ];
+  const roles = ["React.js", "Next.js", "WordPress (Bricks Builder)"];
 
   const words = ["modern", "responsive", "interactive", "beautiful"];
 
   return (
     <section className="relative w-full min-h-screen flex flex-col justify-center items-center bg-transparent antialiased  overflow-hidden text-white">
-      
-      
       {/* Content Container */}
       <div className="relative z-10 w-full max-w-6xl mx-auto px-6 md:px-12 text-center">
         {/* Name / Title */}
@@ -41,27 +35,36 @@ export function Hero() {
         >
           Frontend Developer — Expert in{" "}
           <span className="font-medium">
-            <FlipWords
-              words={roles}
-              className="text-indigo-400 font-medium"
-            />
+            <FlipWords words={roles} className="text-indigo-400 font-medium" />
           </span>
         </motion.h2>
 
         {/* Sparkles Line */}
         <div className="relative w-full md:w-[40rem] h-6 mx-auto mb-8">
-          <motion.div initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }} className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
-          <motion.div initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }} className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
-          <motion.div initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }} className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
-          <motion.div initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }} className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
+            className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4"
+          />
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
+            className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm"
+          />
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
+            className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm"
+          />
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
+            className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4"
+          />
           <SparklesCore
             background="white"
             minSize={0.4}
@@ -79,9 +82,12 @@ export function Hero() {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="text-2xl md:text-4xl font-normal text-neutral-400 mb-12"
         >
-          I craft <FlipWords words={words} /> <motion.span initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }}>
+          I craft <FlipWords words={words} />{" "}
+          <motion.span
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
+          >
             web experiences.
           </motion.span>
         </motion.p>
@@ -93,14 +99,25 @@ export function Hero() {
           transition={{ delay: 0.7, duration: 0.8 }}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
-        
-         <a href="#about">
-          <MagicButton title="View Porjects" icon={<FaLocationArrow/>} position="left"/>
-         </a>
-        
-         <a href="#about">
-          <MagicButton title="Download CV" icon={<FaCloudArrowDown />} position="right"/>
-         </a>
+          <a href="#projects">
+            <MagicButton
+              title="View Porjects"
+              icon={<FaLocationArrow />}
+              position="left"
+            />
+          </a>
+
+          <a
+            href="https://drive.google.com/file/d/12IGAxlOp-Om_U6E4G8w2jwYbL716_zbm/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MagicButton
+              title="Download CV"
+              icon={<FaCloudArrowDown />}
+              position="right"
+            />
+          </a>
         </motion.div>
       </div>
 
